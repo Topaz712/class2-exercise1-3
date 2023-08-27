@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  background-color: wheat;
+  color: snow;
+  font-style: italic;
+}
+
+p {
+  margin-top: 50px;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 15%;
+}
+
+.conatiner-cards {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15rem;
+  margin: 2rem;
+}
+
+.items {
+  position: relative;
+
+}
+
+picture> * {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    color: blue;
+  }
+}
