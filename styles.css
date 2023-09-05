@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: wheat;
   color: snow;
   font-style: italic;
@@ -10,6 +10,7 @@ body {
 
 p {
   margin-top: 50px;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -23,16 +24,9 @@ p {
   width: 100%;
 }
 
-.card {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 15rem;
-  margin: 2rem;
-}
-
 .items {
   position: relative;
-
+  z-index: 1;
 }
 
 picture> * {
